@@ -2,16 +2,6 @@ defmodule Day4 do
    @moduledoc """
   Documentation for Aoc.
   """
-
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Aoc.hello
-      :world
-
-  """
   def validPassphrase?(input) when is_bitstring input do
     input
     |> String.split
