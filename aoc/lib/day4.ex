@@ -15,6 +15,4 @@ defmodule Day4 do
     Enum.filter(data, fn(x) -> validPassphrase?(x) end)
     |> Enum.count
   end
-
-  
 end
