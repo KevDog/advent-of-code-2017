@@ -5,6 +5,5 @@ defmodule Day2 do
         |> Enum.sum
     end
 
-    def checksum2()
 
 end
